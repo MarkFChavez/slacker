@@ -7,8 +7,13 @@ gem 'spring', :group => :development
 gem 'sidekiq', '~> 2.17.7'
 gem 'sidetiq'
 
+
+gem 'unicorn'
+
 group :development do
   gem 'sqlite3'
+  gem 'capistrano'
+  gem 'rvm-capistrano'
 end
 
 group :production do
